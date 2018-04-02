@@ -3,11 +3,22 @@ extend default
 block content
     -var ll1 = "https://github.com/vlad-the-EPIChacker/web1"
     p.
-        This explains how to create a website using node.js and express on Mac Os. By the end of this tutorial, you should have a website hosted on a local machine.
+        This explains how to create a website using node.js and express on MacOS. By the end of this tutorial, you should have a website hosted on a local machine.
 
-        Credits to #[a(href="https://github.com/bengourley") bengourley] for the original code
+        Credits to #[a(href="https://github.com/bengourley") Ben Gourley] for the original code.
     ol
+        h1 Making the Website
         li Clone this project from github #[a(href="https://github.com/vlad-the-EPIChacker/web1") here]. <br /> #[code() git clone #{ll1}]
         li Install node.js using homebrew <br /> #[code() brew install npm]
-        li Install express and logger(morgan) using homebrew <br /> #[code() npm i --save express@4 morgan@1]
+        li Install express and a logger(morgan) using npm <br /> #[code() npm i --save express@4 morgan@1]
+        li Install jade(html template language) and stylus(css template language) for our front end of the website<br /> #[code() npm i --save jade@1 stylus@0]
+        li Install nodemon so we can see our changes to the website live <br /> #[code() npm install -g nodemon]
+        <br /> 
+
+        h1 Changing the Website
+        li Run #[code() npm init] to initialize your website. Enter all the information it asks for. If you need to change it later, edit the package.json file.
+        li Build the website #[code() npm run build]
+        <br /> 
+
+        h1 Locally hosting the website
 
