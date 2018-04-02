@@ -1,8 +1,3 @@
-*   [Home](/)
-*   [News](#news)
-*   [About](#about)
-*   [Contact](#contact)
-
 <div class="main-content">
 
 This explains how to create a website using node.js and express on MacOS. By the end of this tutorial, you should have a website hosted on a local machine. Credits to [Ben Gourley](https://github.com/bengourley) for the original code.
@@ -29,11 +24,5 @@ This explains how to create a website using node.js and express on MacOS. By the
 13.  Edit index.style to edit the css classes of the website. Do NOT edit the index.css file, because the file regenerates, discarding all changes, everytime the css is built.
 
 # Locally hosting the website
-
-</div>
-
-<div class="footer">
-
-Copyright © 2020 Futurecorpz. Futurecorpz ® is a Registered Trademark of Futures (un)Ltd. in the Mars Community and other solar systems.
 
 </div>
